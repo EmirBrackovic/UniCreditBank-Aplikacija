@@ -1,0 +1,13 @@
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+}
+
+.button {
+    position:absolute;
+    bottom:100px;
+    right:0px;
+    width:40%;
+    height:30px;
+}

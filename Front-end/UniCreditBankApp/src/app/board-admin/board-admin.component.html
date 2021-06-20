@@ -1,0 +1,22 @@
+<div class="container">
+  <table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Ime</th>
+      <th>Prezime</th>
+      <th>Email</th>
+      <th>Password token</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users">
+      <td><span>{{user.id}}</span></td>
+      <td><span>{{user.firstName}}</span></td>
+      <td><span>{{user.lastName}}</span></td>
+      <td><span>{{user.username}}</span></td>
+      <td><span>{{user.password}}</span></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
