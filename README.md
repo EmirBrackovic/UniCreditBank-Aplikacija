@@ -17,16 +17,16 @@ Angular, Spring Boot, PostgreSQL
 - Type `git clone https://github.com/EmirBrackovic/UniCreditBank-Aplikacija.git`
 
 
-- Through your Java editor, open "application.properties" in "Back-end/UniCreditBankApp/src/main/resources" folder
-- Set up your PostgreSQL database and insert your data in "aplication.properties"
+- Through your Java editor, open `application.properties` in `Back-end/UniCreditBankApp/src/main/resources` folder
+- Set up your PostgreSQL database and insert your data in `aplication.properties`
 - Run application trough your Java editor
 
 - Open new terminal
 - Change the current working directory to the cloned folder
-- Type "cd Front-end"
-- Type "cd UniCreditBankApp"
+- Type `cd Front-end`
+- Type `cd UniCreditBankApp`
 - Type `npm install` for installing all dependencies 
-- Type 'npm start' or "ng serve" for starting App
+- Type `npm start` or `ng serve` for starting App
 
 - Open your Browser and into your address bar type `localhost:4200`
 
